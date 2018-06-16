@@ -3350,9 +3350,9 @@ node-gyp@^3.3.1:
     tar "^2.0.0"
     which "1"
 
-node-normalize-scss@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/node-normalize-scss/-/node-normalize-scss-3.0.0.tgz#119bf5d5bb71160465e9f1204c41f691d26ecf77"
+node-normalize-scss@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/node-normalize-scss/-/node-normalize-scss-8.0.0.tgz#b5be9c851cd9861266524a43a5bc83854506a7d6"
 
 node-notifier@^5.2.1:
   version "5.2.1"

@@ -23,7 +23,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "vinyl-ftp": "^0.6.1",
-    "node-normalize-scss": "^3.0.0"
+    "node-normalize-scss": "^8.0.0",
+    "vinyl-ftp": "^0.6.1"
   }
 }

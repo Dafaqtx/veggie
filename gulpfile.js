@@ -11,7 +11,7 @@ var gulp           = require('gulp'),
 	cache          = require('gulp-cache'),
 	autoprefixer   = require('gulp-autoprefixer'),
 	ftp            = require('vinyl-ftp'),
-	notify         = require("gulp-notify"),
+	notify         = require('gulp-notify'),
 	rsync          = require('gulp-rsync');
 
 	gulp.task('browser-sync', function() {
@@ -52,7 +52,7 @@ gulp.task('sass', function() {
 	}).on('error', sass.logError))
 	.pipe(rename({suffix: '.min', prefix : ''}))
 	.pipe(autoprefixer(['last 15 versions']))
-	.pipe(cleanCSS()) // Опционально, закомментировать при отладке
+	// .pipe(cleanCSS()) // Опционально, закомментировать при отладке
 	.pipe(gulp.dest('app/css'))
 	.pipe(browserSync.stream())
 });
