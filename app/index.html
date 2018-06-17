@@ -159,7 +159,7 @@
 
 		<section id="menu" class="menu">
 			<header>
-				<div class="menu__title">Menu</div>
+				<h2 class="menu__title">Menu</h2>
 			</header>
 			<div class="menu--wrapper">
 				<div class="menu__tabs">
@@ -432,10 +432,48 @@
 	</main>
 
 
-	<footer class="footer">
+	<footer id="contact" class="footer">
+		<div class="footer--wrapper">
+			<div class="footer__right">
+				<header>
+					<h2 class="footer__title">Contact</h2>
+				</header>
+				<div class="footer__info">
+					<div class="footer__address">
+						<h4 class="footer__name">Veggie</h4>
+						<div class="footer__sub-name">3428 Magnolia Avenue </div>
+						<div class="footer__sub-name">Hackettstown, NJ 07840</div>
+					</div>
+					<div class="footer__reserv">
+						<h4 class="footer__name">Reservations</h4>
+						<div class="footer__sub-name">reservations@vegggie.com</div>
+						<div class="footer__sub-name">+48 202-555-0114</div>
+					</div>
+				</div>
+
+				<form action="/" class="footer__form">
+					<h3 class="footer__caption">Contact form</h3>
+					<input class="footer__field footer__field--name" type="text" name="name" id="filed__name" placeholder="Name" required>
+					<input class="footer__field footer__field--email" type="email" name="email" id="filed__email" placeholder="Email" required>
+					<input class="footer__field footer__field--message" type="text" name="message" id="filed__message" placeholder="Message">
+					<button class="footer__btn" type="submit">Send</button>
+				</form>
+
+				<div class="footer__social">
+					<div class="footer__item">
+						<a href="#"><img src="./img/footer/fb.png" alt=""></a>
+					</div>
+					<div class="footer__item">
+						<a href="#"><img src="./img/footer/ins.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 	</footer>
-
+	<a href="#home" class="up">
+		<img src="./img/footer/up-arrow.svg" alt="">
+	</a>
 	<script src="js/scripts.min.js"></script>
 
 </body>

@@ -17,3 +17,16 @@
 
 		});
 	})(jQuery);
+	
+	$(window).scroll(function () {
+		
+		if ($(this).scrollTop() >= 700) {
+			$('a.up').css('opacity', '1');
+		} else {
+			$('a.up').css('opacity', '0')
+		}
+
+	})
+	
+	
+	
